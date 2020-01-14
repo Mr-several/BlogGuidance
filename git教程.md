@@ -150,6 +150,14 @@ Are you sure you want to continue connecting (yes/no)?
 这里要输入yes之后再使用的时候就不会出现这个错误了。
 所以我们要做的就是平时在本地进行开发，有网络的时候将我们的数据使用git push 的命令将文件同步到远程的GitHub仓库中去，实现一个远程的保存。
 
+```git
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Mr-several/Csharp.git
+git push -u origin master
+```
+
 ## git的分支管理
 
 什么是分支：
